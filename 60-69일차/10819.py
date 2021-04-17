@@ -12,6 +12,7 @@ for i in permu:
         s += abs(i[j]-i[j+1])
     if s >= m:
         m = s
+        
 print(m)
 
 # 2번 코드
