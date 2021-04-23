@@ -1,5 +1,5 @@
 import sys
-from collections import deque
+from collections import deque 
 
 m, n, h = map(int, sys.stdin.readline().split())
 visited = [[[0] * m for _ in range(n)] for _ in range(h)]
