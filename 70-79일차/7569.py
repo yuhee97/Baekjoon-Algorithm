@@ -5,7 +5,7 @@ m, n, h = map(int, sys.stdin.readline().split())
 visited = [[[0] * m for _ in range(n)] for _ in range(h)]
 graph = []
 
-dz = [1, -1, 0, 0, 0, 0] #  앞뒤
+dz = [1, -1, 0, 0, 0, 0] # 앞뒤
 dx = [0, 0, 0, -1, 0, 1] # 위아래
 dy = [0, 0, 1, 0, -1, 0] # 왼쪽/오른쪽
 
