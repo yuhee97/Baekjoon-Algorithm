@@ -1,7 +1,7 @@
 n, k = map(int, input().split())
 dp = [[0] * (k+1) for i in range(n+1)]
 W = [0]
-V = [0]
+V = [0] 
 
 for i in range(n):
     w, v = map(int, input().split())
