@@ -1,4 +1,4 @@
-def game(n):
+def game(n): 
     c = 0
     while True:
         c += 1
